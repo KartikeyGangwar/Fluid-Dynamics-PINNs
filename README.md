@@ -19,8 +19,4 @@ For The Navier-Stokes Equation with lid cavity driven conditions struggle persis
 
 Now focusing on adding the adaptive lambda loss weight and vanishing function for boundary condition in forward call for Navier-Stokes eqn. for model to predict values satisfying the BC's before training even happens.
 
-For solving we took, initial condition as u(x,0) = f(x) where f(x) is initial state of system so we took f(x) as -sin(pi*x) & Dirichlet boundary condition for Burgers' equation AND lid cavity driven experiment conditions for Navier-Stokes Equation. 
-
-Now we are going to impliment multi fidelity on this model for better results and making it more effective for training cost.
-
-Code for SF and MF both will be available in directory.
+For solving we took, initial condition as u(x,0) = f(x) where f(x) is initial state of system so we took f(x) as -sin(pi*x) & Dirichlet boundary condition for Burgers' equation AND lid cavity driven experiment conditions for Navier-Stokes Equation.
